@@ -8,6 +8,21 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
+    title: "My Portfolio",
+    author: "Cohen Tal",
+    description: "This is a page about me",
+    siteUrl: "https://amberley.blog/",
+    social: [
+      {
+        name: "twitter",
+        url: "https://twitter.com/amber1ey",
+      },
+      {
+        name: "github",
+        url: "https://github.com/amberleyromo",
+      },
+    ],
+
     siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
   },
   plugins: [
